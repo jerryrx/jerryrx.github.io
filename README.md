@@ -1,4 +1,4 @@
-# [Your Name] - Data Analysis Portfolio
+# Jeremy Avadzi - Data Science/Analysis Portfolio
 
 Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
 
@@ -12,16 +12,20 @@ This portfolio is designed to demonstrate skills in:
 
 ## 🚀 Projects
 
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
+### 📈 Adbot Click Predictor
+Developed a machine learning model to predict Google Ads clicks using historical advertising campaign data. Compared multiple regression algorithms and evaluated their performance to identify the most effective predictive approach.
 
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
+**Tools:** Python, Pandas, Scikit-learn, XGBoost, LightGBM, Streamlit
 
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
+### 🌾 AgroConnect Ghana A/B Testing
+Analyzed data from 3,000 farmers to evaluate whether agricultural advice delivered through WhatsApp voice notes performed better than traditional SMS. The analysis found that voice-note communication increased crop yields by 4.2% while also revealing the impact of rising farming costs on farmers' final profits.
 
-### Project Title Three
-*A brief description of your project, the tools used, and the key insights derived.*
+**Tools:** Python, Pandas, Statistical Analysis, A/B Testing, Data Visualization
+
+### 🧬 Maternal Mortality Analysis
+Analyzed maternal mortality data across multiple countries and years to identify trends, patterns, and geographical differences in maternal health outcomes.
+
+**Tools:** Python, Pandas, Matplotlib, Data Visualization
 
 
 ## 🛠️ Skills
@@ -42,8 +46,8 @@ Click the green **"Use this template"** button at the top of this repository pag
 
 ### 2. Name Your Repository for GitHub Pages
 This is the most important step. To turn your portfolio into a live website, you **must** name your new repository in the following format:
-`your-username.github.io`
-*(Replace `your-username` with your actual GitHub username.)*
+`jerryrx.github.io`
+*(Replace `jerryrx` with your actual GitHub username.)*
 
 ### 3. Customize Your Portfolio
 Open the `index.html` file and begin personalizing it. The file contains helpful `<!--💡UPDATE: ... -->` comments to guide you on where to change:
