@@ -345,7 +345,44 @@ section.section { padding: 100px 0; }
 }
 
 .about-text p { color: var(--text-muted); margin-bottom: 16px; font-size: 1rem; }
-.about-text p:last-child { margin-bottom: 0; }
+.about-text p:last-of-type { margin-bottom: 0; }
+
+.cert-badge {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 26px;
+    padding: 16px 18px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+}
+
+.cert-badge-icon {
+    width: 42px; height: 42px;
+    border-radius: 10px;
+    background: rgba(59, 130, 246, 0.14);
+    color: var(--blue-light);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+}
+
+.cert-badge-text { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.cert-badge-title { font-size: 0.92rem; font-weight: 700; color: var(--text); }
+.cert-badge-issuer { font-size: 0.8rem; color: var(--text-muted); }
+
+.cert-badge-link {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--blue-light);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.cert-badge-link:hover { text-decoration: underline; }
 
 /* ==========================================================================
    Skills table
