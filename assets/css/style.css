@@ -211,9 +211,9 @@ section.section { padding: 100px 0; }
     margin-bottom: 34px;
 }
 
-.hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 30px; }
+.hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 44px; }
 
-.hero-skills { display: flex; gap: 10px; flex-wrap: wrap; }
+.hero-skills { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
 
 /* Hero photo */
 .hero-photo {
